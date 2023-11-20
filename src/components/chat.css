@@ -1,0 +1,47 @@
+.chat-container {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px;
+}
+
+.message-area {
+    height: 300px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.message {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.message.user {
+    background-color: #e0e0e0;
+    text-align: right;
+}
+
+.message.assistant {
+    background-color: #f0f0f0;
+    text-align: left;
+}
+
+.input-area {
+    display: flex;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 5px;
+}
+
+.input-area button {
+    padding: 5px;
+}
+
+.error-message {
+    color: red;
+    padding: 5px;
+}
